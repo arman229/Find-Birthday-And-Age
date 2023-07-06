@@ -9,7 +9,7 @@ export const DobContext = createContext({})
 export const DobApp = () => {
 
 
-    const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const daysOfWeek = ['SUNDAY', 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY'];
 
     const [dayOfWeek, setDayOfWeek] = useState("")
     const [days, setDays] = useState(0)
