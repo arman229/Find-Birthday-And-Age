@@ -1,0 +1,16 @@
+.flexstyle {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* Media query for small screens (sm) and below */
+@media (max-width: 700px) {
+    .flexstyle {
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+        justify-content: center;
+        row-gap: 30px;
+    }
+}

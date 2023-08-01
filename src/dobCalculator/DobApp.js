@@ -3,6 +3,8 @@ import {LocalizationProvider} from "@mui/x-date-pickers/LocalizationProvider";
 import React, {createContext, useState} from "react";
 import {AdapterDayjs} from "@mui/x-date-pickers/AdapterDayjs";
 import {OutputComponent} from "./OutputComponent";
+import Footer from "./footer";
+import AppBarExample from "./header";
 
 
 export const DobContext = createContext({})
@@ -34,19 +36,25 @@ export const DobApp = () => {
 
     }
 
-    return (
-        <LocalizationProvider dateAdapter={AdapterDayjs}>
+    return (<>
+        <AppBarExample/>
+        <LocalizationProvider dateAdapter={AdapterDayjs} >
             <DobContext.Provider value={{
                 onDateChange: onDateChange,
                 dayOfWeek: dayOfWeek,
                 days: days,
                 months: months,
                 years: years,
-            }}>
+            }} >
 
-    <DateInputComponent/>
-    <OutputComponent/>
-            </DobContext.Provider>
 
-        </LocalizationProvider>)
+
+         <DateInputComponent/>
+         <OutputComponent/>
+
+   </DobContext.Provider>
+
+        </LocalizationProvider>
+   <Footer/>
+    </>)
 }

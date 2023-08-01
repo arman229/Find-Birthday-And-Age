@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Birthday Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
+![output.jpg](Output%20result%2Foutput.jpg)
+This repository contains the source code and deployment details for the Birthday Calculator web application. The Birthday Calculator allows users to enter their date of birth and calculate their age in years, months, and days.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+You can access the live demo of the Birthday Calculator project through the following link:
+[https://findbirthdayandage.netlify.app/](https://findbirthdayandage.netlify.app/)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* 1)This web application allows users to enter their date of birth and calculate their age in years, months, and days.
+* 2)Users can first select their date of birth using a date picker.
+* 3)After selecting the date of birth, users can press the calculate button to initiate the age calculation.
+* 4)The day of the week on which the user was born is displayed below the date picker.
+* 5)The age of the user in years, months, and days are displayed in parallel to the day of birth.
+* 6)The web application is designed to be responsive, ensuring that the age calculation remains effective even if the user selects a future date.
+ 
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run the project locally, follow these steps:
 
-### `npm test`
+1. Clone the repository: `git clone https://github.com/arman229/Find-Birthday-And-Age.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Open the web application in your browser at `http://localhost:3000`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 
+## Contributing
 
-### `npm run build`
+Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The original project idea and implementation are credited to [Arman](https://github.com/arman229/Find-Birthday-And-Age.git).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy calculating your birthday age! 🎂
