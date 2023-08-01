@@ -28,7 +28,7 @@ export const DobApp = () => {
         var timeDiff = Math.abs(currentDate.getTime() - dob.getTime())
         const cyears = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365.25));
         const cmonths = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 30.4375)) % 12;
-        const cdays = Math.floor( (timeDiff / (1000 * 60 * 60 * 24)) % 30.4375);
+        const cdays = Math.floor( (timeDiff / (1000 * 60 * 60 * 24)) % 30.4375) +1;
         setDayOfWeek(daysOfWeek[dob.getDay()])
         setDays(cdays)
         setMonths(cmonths)
