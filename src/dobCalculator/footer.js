@@ -8,13 +8,13 @@ const Footer = () => {
                 <Grid container justifyContent="space-between">
                     <Grid item sm={6} xs={12}>
                         <Typography variant="body2" textAlign={{ xs: 'center', sm: 'left'  }}   >
-                            &copy; {new Date().getFullYear()} BMI Website. All rights reserved.
+                            &copy; {new Date().getFullYear()} Age Calculator Website. All rights reserved.
                         </Typography>
                     </Grid>
                     <Grid item sm={6} xs={12}>
                         <Typography variant="body2" textAlign={{ xs: 'center', sm: 'right'  }} >
                             Designed and developed by{' '}
-                            <Link   href="https://www.portfolioarman" target="_blank" rel="noopener" style={{color:"white",fontSize:"1.2em",borderBottom:"2px solid white"}}>
+                            <Link   href="https://portfolio-arman.netlify.app" target="_blank" rel="noopener" style={{color:"white",fontSize:"1.2em",borderBottom:"2px solid white"}}>
                                 ARMAN
                             </Link>
                         </Typography>
