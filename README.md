@@ -1,13 +1,13 @@
 # Birthday Calculator
 
+ ![outputimage.jpg](Output%20result%2Foutputimage.jpg)
  
-![output.jpg](Output%20result%2Foutput.jpg)
 This repository contains the source code and deployment details for the Birthday Calculator web application. The Birthday Calculator allows users to enter their date of birth and calculate their age in years, months, and days.
 
 ## Live Demo
 
 You can access the live demo of the Birthday Calculator project through the following link:
-[https://findbirthdayandage.netlify.app/](https://findbirthdayandage.netlify.app/)
+[ Birthday Calculator Live Demo](https://findbirthdayandage.netlify.app/)
 
 ## Features
 
